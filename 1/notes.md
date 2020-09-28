@@ -16,6 +16,10 @@ The course is split up into 3 modes: Lectures, Tutorials and Labs.
 
 These tutorials are mainly a time for a small amount of teaching from me but also a time for a QnA style interactive session.
 
+You will want to get to know people in this class as there is a group assignment.
+
+*insert Hannah Montana meme*
+
 ## About asking questions
 
 There is no such thing as a stupid question. Dont be afraid to ask.
@@ -136,6 +140,8 @@ Python: Dynamic, weakly typed.
 
 Java: Static, strongly typed, polymorpic (talk more about this later)
 
+<img src="images/pythonvsjava.jpg" width="400">
+
 </details>
 
 ### Access Control
@@ -165,3 +171,7 @@ Python: Garbage collector controls memory.
 Java: Garbage collector controls memory.
 
 </details>
+
+---
+
+## Q4 - Write a program that sums integers from input.

@@ -1,0 +1,13 @@
+
+def function_does_something():
+    __i = 0
+
+int* function() {
+    int *array = malloc(10 * sizeof(int));
+    return array;
+}
+
+public void doSomething() {
+    int i = 0;
+
+}
