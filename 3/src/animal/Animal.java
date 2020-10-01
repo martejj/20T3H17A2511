@@ -5,7 +5,7 @@ import java.util.List;
 
 import body.BodyPart;
 
-public class Animal {
+public abstract class Animal {
 
     protected List<BodyPart> bodyParts;
     protected String name;
@@ -18,5 +18,7 @@ public class Animal {
     public String getName() {
         return this.name;
     }
+    
+    public abstract void makeNoise();
 
 }

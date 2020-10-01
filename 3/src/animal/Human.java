@@ -31,5 +31,9 @@ public class Human extends Animal {
     public Dog getDog() {
         return this.petDog;
     }
-
+    
+    public void makeNoise() {
+        System.out.println("I am a human!");
+    }
+    
 }
