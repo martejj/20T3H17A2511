@@ -1,8 +1,8 @@
 package body;
 
-public class BodyPart {
+public abstract class BodyPart {
     
-    String name;
+    public String name;
 
     public BodyPart(String name) {
         this.name = name;

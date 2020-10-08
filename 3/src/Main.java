@@ -1,6 +1,7 @@
 import animal.Animal;
 import animal.Dog;
 import animal.Human;
+import body.BodyPart;
 
 public class Main {
     

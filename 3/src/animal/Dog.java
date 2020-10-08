@@ -16,4 +16,8 @@ public class Dog extends Animal {
         this.bodyParts.add(new Torso());
     }
     
+    public void makeNoise() {
+        System.out.println("Woof");
+    }
+    
 }

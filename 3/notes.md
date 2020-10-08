@@ -1,5 +1,7 @@
 # Week 3 Tutorial
 
+* Everyone should have a group by now - tell me ASAP if not
+
 Today we will cover:
 - Access Modifiers
 - UML
@@ -14,7 +16,7 @@ Today we will cover:
 
 <details>
 
-<img src="images/access.png" width=500/>
+<img src="images/access.png" width=800/>
 
 </details>
 
@@ -31,6 +33,8 @@ Today we will cover:
 <details>
 
 Unified Modelling Language - it is used to show the internal structure of our object oriented system.
+
+<img src="images/uml.png">
 
 <summary>Answer</summary>
 
