@@ -6,6 +6,7 @@ Today we will cover:
 
 * Interfaces
 * Law of Demeter
+* Liskov Substitution Principle
 * Strategy Pattern
 
 ---
@@ -25,8 +26,8 @@ A method `m` of an object `o` may only invoke the methods of the following kinds
 * `o` itself;
 * `m`'s parameters;
 * any objects instantiated within `m`;
-* `a`'s attributes;
-* global variables accessible by `a` in the scope of `m`.
+* `o`'s attributes;
+* global variables accessible by `o` in the scope of `m`.
 
 What does this mean we cant do?
 
