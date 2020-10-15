@@ -12,7 +12,11 @@ public class CompositeOrder implements Order {
 
     @Override
     public String getContents() {
-        return null;
+        var contents = new ArrayList<String>();
+        for (Order o : this.orders) {
+            contents.add(o.getContents());
+        }
+        return "Composite [ " + String.join(", ", contents) + " ]";
     }
 
     @Override
@@ -22,6 +26,10 @@ public class CompositeOrder implements Order {
             sum += o.getPrice();
         }
         return sum;
+    }
+    
+    public void addOrder(Order o) {
+        this.orders.add(o);
     }
     
 }
