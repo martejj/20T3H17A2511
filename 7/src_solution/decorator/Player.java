@@ -1,6 +1,6 @@
 package decorator;
 
-public class Player {
+public class Player implements Armour {
 
     Armour armour;
 
@@ -8,8 +8,8 @@ public class Player {
         return armour.getArmourValue();
     }
 
-    public void addArmour() {
-        
+    public void setArmour(Armour armour) {
+        this.armour = armour;
     }
     
 }

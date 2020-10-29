@@ -4,6 +4,7 @@ Things to note:
 * Today's lab is for marking milestone 1. 
 * This will be done on MS Teams (Make sure you download it)
 * Week 5's Lab will be marked in week 9 but make sure you submit it.
+* Today we will cover the decorator pattern (not in lectures until next week but very useful for the project)
 
 ---
 
@@ -78,3 +79,29 @@ Observer pattern. If the light sensor is the subject, the observer could be noti
 </details>
 
 <br>
+
+---
+
+## Q2 - Model the following system
+
+A player can wear any combination of pieces of armour:
+- Helmet
+- Leggings
+- Chestplate
+- Boots
+
+<br>
+
+---
+
+## Q3 - When should we use Composite vs. Decorator?
+
+<details>
+
+Composite is better when we have multiple instance objects that can be combined in different ways (e.g. for math numbers can be combined in multiple ways: add, subtract, multiply).
+
+Decorator is better when we have one instance object which we would like to modify the behaviour of (e.g. a christmas tree with multiple decorations).
+
+<summary>Answer</summary>
+
+</details>
